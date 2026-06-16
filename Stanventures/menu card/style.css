@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-image: url("cafe.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.menu-card{
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+h2{
+    background-color: #f5dfc7;
+    color: red;
+    padding: 10px;
+    border-left: 5px solid red;
+    margin-top: 25px;
+}
+
+img{
+    float: right;
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+    border-bottom: 1px dotted white;
+    padding: 10px 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: lightblue;
+}
+
+footer{
+    background-color: rgba(146,38,38,0.8);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid gold;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px){
+
+    img{
+        float: none;
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
